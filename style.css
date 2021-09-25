@@ -42,3 +42,14 @@ nav{
 .inputbox{
     padding: 1rem;
 }
+.outputEl{
+    color: #004b23;
+    font-weight: bold;
+    font-size: large;
+}
+.info{
+    padding: 0.5rem;
+    border-style: groove;
+    text-align: center;
+    font-weight: bold;
+}

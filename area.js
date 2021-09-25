@@ -1,6 +1,6 @@
 const sideInput = document.querySelectorAll(".sideInput");
 const submitBtn = document.querySelector(".submitBtn");
-const outputEl = document.getElementById("outputEl");
+const outputEl = document.querySelector(".outputEl");
 submitBtn.addEventListener('click',calculateHyp);
 function calculateHyp(){
     var a = Number(sideInput[0].value);

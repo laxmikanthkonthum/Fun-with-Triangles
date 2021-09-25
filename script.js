@@ -1,6 +1,6 @@
 const angleInput = document.querySelectorAll(".angleInput");
 const submit = document.querySelector(".submitBtn");
-const outputEl = document.querySelector(".output");
+const outputEl = document.querySelector(".outputEl");
 submit.addEventListener('click',checkValues);
 function checkValues(){
     var sum = 0;
@@ -10,7 +10,7 @@ function checkValues(){
     if ( sum === 180){
         outputEl.innerText = "Yayy! Its a triangle";
     }
-    else{
+    else {
         outputEl.innerText = "They dont form a triangle";
     }
 }

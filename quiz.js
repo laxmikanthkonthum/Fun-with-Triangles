@@ -1,5 +1,5 @@
 const quizform = document.getElementById('quiz');
-const submitBtn = document.querySelector('.submitbtn');
+const submitBtn = document.querySelector('.submitBtn');
 const outputEl = document.querySelector(".outputEl")
 submitBtn.addEventListener('click',getValues);
 correctAnswers = ["Obtuse","True"];
