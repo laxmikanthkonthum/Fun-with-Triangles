@@ -9,7 +9,7 @@ function calculateHyp(){
             outputEl.innerText = "Please enter both the values";
         }
         else{
-            var hyp = Math.sqrt((a*a)+(b*b));
-            outputEl.innerText = "The Hypotenuse Value is: " + hyp;
+            var area = (0.5 * a * b );
+            outputEl.innerText = "The area of the triangle is: " + area;
         }
 }

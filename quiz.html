@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="\style.css">
 </head>
 <body>
     <nav> 
-        <a href = "index.html">Is a Traingle?</a>
-        <a href = "quiz.html">Triangle Quiz</a>
-        <a href = "hypotenuse.html">Hypotenuse</a>
+        <a href = "index.html" class="link">Is a Traingle?</a>
+        <a href = "quiz.html" class="link">Triangle Quiz</a>
+        <a href = "hypotenuse.html" class="link">Hypotenuse</a>
+        <a href = "area.html" class="link">Area</a>
     </nav>
+    <main>
     <h1>Triangle Quiz</h1>
     <form id="quiz">
-        <div>
+        <div class = "inputbox">
             <h3> A triangle with one angle greater than 90 degrees is called as</h3>
             <input type="radio" class = "quizAns" name="test" value = 'Acute'> 
             <label for="quizAns">Acute</label>
@@ -23,7 +26,7 @@
             <input type="radio" class = "quizAns" name="test" value = 'Isoceles'>  
             <label for="quizAns">Isoceles</label>
         </div>
-        <div>
+        <div class = "inputbox">
             <h3>In equilateral triangle, all three angles are equal.</h3>
             <input type="radio" class = "quizAns" name="test1" value = 'True'> 
             <label for="quizAns">True</label>
@@ -32,9 +35,10 @@
         </div>
     </form> 
     <div>
-        <button class = "submit">Submit</button>
+        <button class = "submitBtn">Submit</button>
     </div>  
     <div class = "outputEl"></div>
+   </main>
     <script src = 'quiz.js'></script> 
 </body>
 </html>

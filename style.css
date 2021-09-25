@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap');
+:root{
+    --primary-color:#a4ac86;
+    --secondary-color: #6d6875;
+   
+}
+h1{
+    color: #6930c3;
+}
+body{
+    background-color: var(--primary-color);
+    font-family: 'Koh Santepheap', cursive;
+}
+main{
+    margin: auto;
+    max-width: 400px;
+}
+nav{
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color:whitesmoke;
+    font-size: x-large;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+.link{
+    color:whitesmoke;
+    padding:0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-size: large;
+}
+.submitBtn{
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: #52b69a;
+    border-radius: 0.5rem;
+    margin-left: 90px;
+}
+.inputbox{
+    padding: 1rem;
+}

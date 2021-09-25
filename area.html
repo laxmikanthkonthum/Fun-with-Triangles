@@ -4,35 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is Traingle?</title>
+    <title>Calculate Hypotenuse</title>
     <link rel="stylesheet" href="\style.css">
 </head>
 <body>
-    <nav> 
+      <nav> 
         <a href = "index.html" class="link">Is a Traingle?</a>
         <a href = "quiz.html" class="link">Triangle Quiz</a>
         <a href = "hypotenuse.html" class="link">Hypotenuse</a>
         <a href = "area.html" class="link">Area</a>
     </nav>
     <main>
-    <h1>Is a Traingle?</h1>
+    <h1>Calculate Area</h1>
     <div class = "inputbox">
-        <label name = 'Angle1' for = "angleInput">Angle1</label>
-    <input type="number" class = "angleInput">
+        <label>Side 1: </label>
+        <input type="number" class="sideInput">
     </div>
     <div class = "inputbox">
-    <label name = 'Angle2' for = "angleInput">Angle2</label>
-    <input type="number" class = "angleInput">
-</div>
-<div class = "inputbox">
-        <label name = 'Angle3' for = "angleInput">Angle3</label>
-    <input type="number" class = "angleInput">
+        <label>Side 2: </label>
+        <input type="number" class="sideInput">
     </div>
     <div>
-    <button class = "submitBtn">Is Triangle?</button>
+        <button class = 'submitBtn'>Submit</button>
     </div>
-    <p class = "output"></p>
+    <div id = "outputEl">   </div>
 </main>
-    <script src = "script.js"></script>
+    <script src="area.js"></script>
 </body>
 </html>

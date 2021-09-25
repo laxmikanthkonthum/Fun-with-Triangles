@@ -1,5 +1,5 @@
 const angleInput = document.querySelectorAll(".angleInput");
-const submit = document.querySelector(".submit");
+const submit = document.querySelector(".submitBtn");
 const outputEl = document.querySelector(".output");
 submit.addEventListener('click',checkValues);
 function checkValues(){
