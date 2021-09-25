@@ -6,7 +6,7 @@ function calculateHyp(){
     var a = Number(sideInput[0].value);
     var b = Number(sideInput[1].value);
         if(a == '0' || b == '0'){
-            outputEl.innerText = "Please enter both the values";
+            outputEl.innerText = "Please enter both the values greater than 0";
         }
         else{
             var hyp = Math.sqrt((a*a)+(b*b));
