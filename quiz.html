@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+    <nav> 
+        <a href = "index.html">Is a Traingle?</a>
+        <a href = "quiz.html">Triangle Quiz</a>
+        <a href = "hypotenuse.html">Hypotenuse</a>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <form id="quiz">
+        <div>
+            <h3> A triangle with one angle greater than 90 degrees is called as</h3>
+            <input type="radio" class = "quizAns" name="test" value = 'Acute'> 
+            <label for="quizAns">Acute</label>
+            <input type="radio" class = "quizAns" name="test" value = 'Obtuse'>  
+            <label for="quizAns">Obtuse</label>
+            <input type="radio" class = "quizAns" name="test" value = 'Isoceles'>  
+            <label for="quizAns">Isoceles</label>
+        </div>
+        <div>
+            <h3>In equilateral triangle, all three angles are equal.</h3>
+            <input type="radio" class = "quizAns" name="test1" value = 'True'> 
+            <label for="quizAns">True</label>
+            <input type="radio" class = "quizAns" name="test1" value = 'False'>  
+            <label for="quizAns">False</label>
+        </div>
+    </form> 
+    <div>
+        <button class = "submit">Submit</button>
+    </div>  
+    <div class = "outputEl"></div>
+    <script src = 'quiz.js'></script> 
+</body>
+</html>
